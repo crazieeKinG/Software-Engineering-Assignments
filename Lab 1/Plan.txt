@@ -1,0 +1,14 @@
+Program will have:
+1. Main method
+2. Mean function - to calculate mean.
+3. Standard deviation function - to calculate standard deviation.
+
+Assume that number of data is 10.
+
+Task, Time
+Main Method, 15
+Mean Function, 10
+Standard Function, 15
+Error Fixing, 20
+Testing, 20
+Updating, 25

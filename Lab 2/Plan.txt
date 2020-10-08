@@ -1,0 +1,43 @@
+Program will have:
+    Main Method:
+        Global variables:
+        . employeeDetail dictionary
+        . customerDetail dictionary
+        . tranactionDetail dictionary
+        . transactionLog dictionary
+
+    Functions:
+    1. ReadDataOfFile function
+        - Read whole content of the data.txt
+    2. CreateEmployeeDictionary function
+        - Append data of employee read from the file data.txt to employeeDetail dictionary.
+    3. CreateCustomerDictionary function
+        - Append data of customer read from the file data.txt to customerDetail dictionary.
+    4. CreateTransactionDictionary function
+        - Append transaction data read from the file data.txt to transactionDetail dictionary.
+    5. Transaction function
+        - Process deposit and withdraw
+    6. Deposit function
+        - Read customer details and employee details.
+        - Calculate new account balance after deposit.
+        - Append deposited transaction details to the transactionLog dictionary
+    7. Withdraw function 
+        - Read customer details and employee details.
+        - Calculate new account balance after withdraw.
+        - Append withdrawn transaction details to the transactionLog dictionary
+    8. WriteTransactionLogToFile Function
+        - Write 123456789012345678901234567890123456789012345678901234567890 in the first line of file
+        - Write the data of transactionLog dictionary in format:
+        customerName employeeName deposited(+)/withdrawn(-)$Amount $ customerNewAccountBalance
+
+Task, Time, LinesOfCode
+Main Method, 15, 15
+ReadDataOfFile function, 5, 3
+CreateEmployeeDictionary function, 10, 15
+CreateCustomerDictionary function, 10, 15
+CreateTransactionDictionary function, 15, 15
+Transaction function, 5, 8
+Deposit function, 20, 20
+Withdraw function, 20, 20
+WriteTransactionLogToFile function, 10, 5
+Error Fixing, 20, 0
